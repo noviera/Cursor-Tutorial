@@ -1,0 +1,63 @@
+You are building a simple 2D browser game similar to Super Mario Bros, but minimal and beginner-friendly.
+
+Create a complete working project using only:
+
+* HTML
+* CSS
+* Vanilla JavaScript (no frameworks)
+
+Project requirements:
+
+1. File structure:
+
+* index.html
+* style.css
+* script.js
+
+2. Game features (MUST implement):
+
+* A player character (square or simple shape)
+* Move left and right using arrow keys
+* Jump using spacebar
+* Gravity (player falls down)
+* Collision with ground (player should not fall through floor)
+
+3. Game world:
+
+* A fixed-size game container centered on screen
+* At least one platform (the ground)
+* Optional: 1–2 floating platforms
+
+4. Visual style:
+
+* Strong magenta / pink theme
+* Background: dark purple or deep magenta
+* Platforms: pink tones
+* Player: white or bright contrasting color
+
+5. Technical requirements:
+
+* Use requestAnimationFrame for the game loop
+* Separate logic clearly (update, draw, input)
+* Use simple physics:
+
+  * velocity for jumping
+  * gravity constant
+
+6. Code quality:
+
+* Keep code simple and readable for a beginner
+* Add comments explaining what each part does
+* Do NOT overcomplicate or use advanced patterns
+
+7. Output format:
+
+* Generate ALL 3 files with full code
+* Clearly label each file
+* Make sure the game runs by just opening index.html in a browser
+
+8. Bonus (if easy):
+
+* Prevent player from moving outside the game area
+
+This is a learning project, so clarity is more important than optimization.
